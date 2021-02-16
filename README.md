@@ -20,4 +20,4 @@ This Project check whether or not the person was able to survive the Titanic Cra
 4. The _training set_ is used to train the _model_ using several types of classifiers like **Decision Tree Classifier**, **Logistic Regression**, **K-Nearest Neighbor Classifier**, **Random Forest Classifier**.
 5. The **Accuracy Score** for each and every model is then analyzed and a plot is plotted to see which model best fits the data. And by the analysis it was found out that **Logistic Regression** has the highest accuracy score and thus should be used for further processing.<br><br><br>
 
-**I have used Kaggle Dataset on Loan Approval Prediction and you can download the dataset from [here](https://www.kaggle.com/c/titanic/data).**
+**I have used Kaggle Dataset on Titanic and you can download the dataset from [here](https://www.kaggle.com/c/titanic/data).**
