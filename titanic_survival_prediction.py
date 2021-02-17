@@ -38,6 +38,13 @@ enc = {
     'Sex' : {'male' : 0, 'female' : 1}
 }
 
+'''
+# To Encode Embarked Column with One Hot Encoding Mechanism we can do this
+embark = pd.get_dummies(df['Embarked'], drop_first=True)
+df = df.drop('Embarked', axis=1)
+df = pd.concat([df, embark], axis=1)
+'''
+
 # Encoding the Categorical Values
 df = df.replace(enc)
 
