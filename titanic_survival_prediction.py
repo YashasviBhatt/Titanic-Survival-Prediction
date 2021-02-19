@@ -29,7 +29,7 @@ col_names = list(df.columns)
 
 # Dropping Columns with High Amount of Missing Values
 for col in col_names:
-    if (df[col].isnull().sum() / df[col].count()) > 0.3:
+    if (df[col].isnull().sum() / df[col].shape[0]) > 0.3:
         df = df.drop(col, axis=1)
 
 # Setting Up Encoding Strategy
